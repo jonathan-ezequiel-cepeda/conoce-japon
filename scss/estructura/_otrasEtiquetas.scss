@@ -1,0 +1,20 @@
+p {
+  color: $color-texto;
+  text-align: center;
+  font-weight: bold;
+  margin: 3em;
+}
+
+h3 {
+  color: $color-subtitulo;
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5rem;
+}
+
+a {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  text-decoration: none;
+  color: $color-titulo;
+}

@@ -1,0 +1,26 @@
+footer {
+  background-image: url(../imagenes/footer.png);
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 0%;
+  .titulo2 {
+    color: $color-titulo;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    font-size: 150%;
+    padding: 0.1rem;
+    .redes-sociales {
+      margin: 1rem;
+      color: $color-texto;
+      text-align: center;
+      font-weight: bolder;
+      font-size: 1.2rem;
+    }
+  }
+  .linea {
+    border-top: solid $color-texto;
+    height: 1rem;
+    padding: 0;
+    margin: 0.2rem;
+  }
+}

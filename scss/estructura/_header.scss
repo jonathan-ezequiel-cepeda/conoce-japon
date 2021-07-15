@@ -1,0 +1,62 @@
+header {
+  background-image: url(../imagenes/bg-header.png);
+  background-position: top;
+  background-size: cover;
+  nav {
+    ul {
+      li {
+        background-image: linear-gradient(
+          to right,
+          #ee9ca7 0%,
+          #ffdde1 51%,
+          #ee9ca7 100%
+        );
+        color: #c91f1f;
+        display: inline-block;
+        font-size: small;
+        margin: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.1rem;
+        padding: 0.1rem 2.8rem;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        &:hover {
+          background-position: right center;
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  .titulo {
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    text-decoration: none;
+    color: #c91f1f;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+
+  .titulo :hover {
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+    transition-duration: 1s;
+  }
+
+  .logo {
+    width: 6em;
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+}
+
+.menuh {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}

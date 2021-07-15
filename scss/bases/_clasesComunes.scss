@@ -1,0 +1,27 @@
+.colorTitulo {
+  color: $color-texto;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.borde {
+  border: solid 0.5em $color-borde;
+  border-radius: 5%;
+  opacity: 1;
+}
+
+.borde:hover {
+  opacity: 1;
+}
+
+.escala {
+  width: 20em;
+}
+
+.vertical {
+  margin: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,124 @@
+.title-grid {
+  font-size: 200%;
+  text-align: center;
+  margin: 5px;
+}
+
+.image-grid {
+  width: $width-img * 3;
+}
+
+.text-grid {
+  text-align: center;
+  vertical-align: middle;
+  align-self: center;
+  padding: 1rem;
+}
+
+.text-grid:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+
+.lugares-grid {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "tokyo text-tokyo"
+    "kyoto text-kyoto"
+    "osaka text-osaka"
+    "nagano text-nagano"
+    "fukuoka text-fukuoka";
+  row-gap: 1rem;
+  column-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+.tokyo {
+  grid-area: tokyo;
+  margin: 2rem;
+}
+
+.tokyo:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+
+.text-tokyo {
+  grid-area: text-tokyo;
+  margin: 7rem;
+  border: solid 0.5em $color-borde;
+  border-radius: 5%;
+}
+
+.kyoto {
+  grid-area: kyoto;
+  margin: 2rem;
+}
+
+.kyoto:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+
+.text-kyoto {
+  grid-area: text-kyoto;
+  margin: 7rem;
+  border: solid 0.5em $color-borde;
+  border-radius: 5%;
+}
+
+.osaka {
+  grid-area: osaka;
+  margin: 2rem;
+}
+
+.osaka:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+
+.text-osaka {
+  grid-area: text-osaka;
+  margin: 7rem;
+  border: solid 0.5em $color-borde;
+  border-radius: 5%;
+}
+
+.nagano {
+  grid-area: nagano;
+  margin: 2rem;
+}
+
+.nagano:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+
+.text-nagano {
+  grid-area: text-nagano;
+  margin: 7rem;
+  border: solid 0.5em $color-borde;
+  border-radius: 5%;
+}
+
+.fukuoka {
+  grid-area: fukuoka;
+  margin: 2rem;
+}
+
+.fukuoka:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
+
+.text-fukuoka {
+  grid-area: text-fukuoka;
+  margin: 7rem;
+  border: solid 0.5em $color-borde;
+  border-radius: 5%;
+}
