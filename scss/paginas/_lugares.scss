@@ -16,7 +16,7 @@
 }
 
 .text-grid:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 2s;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .tokyo:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 2s;
 }
 
@@ -63,6 +63,7 @@
 .kyoto:hover {
   transform: scale(1.2);
   transition-duration: 2s;
+  margin: 2rem;
 }
 
 .text-kyoto {

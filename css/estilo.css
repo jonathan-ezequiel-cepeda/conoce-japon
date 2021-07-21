@@ -42,6 +42,8 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(../imagenes/background.png);
+  background-size: 30%;
+  background-repeat: repeat;
   font-family: "Roboto", sans-serif;
   font-style: italic;
   box-sizing: border-box;
@@ -50,7 +52,8 @@ body {
 header {
   background-image: url(../imagenes/bg-header.png);
   background-position: top;
-  background-size: cover; }
+  background-size: 100%;
+  background-repeat: no-repeat; }
   header nav ul li {
     background-image: linear-gradient(to right, #ee9ca7 0%, #ffdde1 51%, #ee9ca7 100%);
     color: #c91f1f;
@@ -83,7 +86,7 @@ header {
     opacity: 0.8;
     transition-duration: 1s; }
   header .logo {
-    width: 6em;
+    width: 6rem;
     display: inline-block;
     margin-bottom: 2rem; }
 
@@ -94,7 +97,8 @@ header {
 footer {
   background-image: url(../imagenes/footer.png);
   background-position: bottom;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
   margin-bottom: 0%; }
   footer .titulo2 {
     color: #c91f1f;
@@ -113,6 +117,24 @@ footer {
     height: 1rem;
     padding: 0;
     margin: 0.2rem; }
+  footer input {
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #c56565;
+    margin: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #c91f1f; }
+  footer textarea {
+    border-radius: 1rem;
+    border-color: #c56565;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    width: 50%; }
 
 .actividades {
   display: flex;
@@ -132,7 +154,10 @@ footer {
   flex-wrap: nowrap;
   justify-items: normal;
   align-content: center;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 2rem; }
 
 .textImg__titulo {
   color: #ac2b2b;
@@ -205,7 +230,7 @@ iframe:hover {
   padding: 1rem; }
 
 .text-grid:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 2s; }
 
 .lugares-grid {
@@ -225,7 +250,7 @@ iframe:hover {
   margin: 2rem; }
 
 .tokyo:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 2s; }
 
 .text-tokyo {
@@ -240,7 +265,8 @@ iframe:hover {
 
 .kyoto:hover {
   transform: scale(1.2);
-  transition-duration: 2s; }
+  transition-duration: 2s;
+  margin: 2rem; }
 
 .text-kyoto {
   grid-area: text-kyoto;
@@ -355,12 +381,16 @@ article:nth-child(8) {
   background-color: #f2dcdc; }
 
 .banner {
-  width: 40rem;
+  width: 50%;
   border-radius: 10%;
   margin-bottom: 3rem; }
 
+.empresa {
+  margin-left: 20%;
+  margin-right: 20%; }
+
 .petalo {
-  width: 20px;
+  width: 1rem;
   opacity: 0.7;
   overflow: hidden; }
 
@@ -407,12 +437,8 @@ article:nth-child(8) {
   animation: animate 21s linear infinite; }
 
 .leaf div:nth-child(9) {
-  left: 90%;
+  left: 84%;
   animation: animate 18s linear infinite; }
-
-.leaf div:nth-child(10) {
-  left: 100%;
-  animation: animate 16s linear infinite; }
 
 @keyframes animate {
   0% {
@@ -440,7 +466,7 @@ article:nth-child(8) {
 
 @media screen and (max-width: 1024px) {
   .lugares-grid {
-    margin: 2rem;
+    margin: 1rem;
     padding: 1rem;
     display: grid;
     grid-template-columns: 100%;
@@ -455,7 +481,7 @@ article:nth-child(8) {
 
 @media screen and (max-width: 768px) {
   .lugares-grid {
-    margin: 2rem;
+    margin: 0rem;
     padding: 1rem;
     display: grid;
     grid-template-columns: 100%;
@@ -466,11 +492,25 @@ article:nth-child(8) {
     align-items: center;
     justify-items: center; }
   .image-grid {
-    width: 20rem; }
-  .banner {
-    width: 30rem;
-    border-radius: 10%;
-    margin-bottom: 3rem; } }
+    width: 20rem; } }
+
+@media screen and (max-width: 560px) {
+  .lugares-grid {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(10, 8%);
+    grid-template-areas: "tokyo" "text-tokyo" "kyoto" "text-kyoto" "osaka" "text-osaka" "nagano" "text-nagano" "fukuoka" "text-fukuoka";
+    row-gap: 1rem;
+    column-gap: 1rem;
+    align-items: center;
+    justify-items: center; }
+  .text-grid {
+    border: none;
+    margin: 1rem; }
+  .image-grid {
+    width: 15rem; } }
 
 @media screen and (max-width: 480px) {
   .lugares-grid {
@@ -488,11 +528,7 @@ article:nth-child(8) {
     border: none;
     margin: 1rem; }
   .image-grid {
-    width: 15rem; }
-  .banner {
-    width: 15rem;
-    border-radius: 10%;
-    margin-bottom: 3rem; } }
+    width: 15rem; } }
 
 @media screen and (max-width: 360px) {
   .lugares-grid {

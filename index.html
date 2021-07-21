@@ -54,7 +54,7 @@
   <section class="center">
     <img class="banner borde" src="imagenes/banner.jpg" alt="banner">
     <h3>Sobre nosotros</h3>
-    <p>Bienvenidos a Japόn! "Conoce Japόn" es una agencia especializada en viajeros latinos quienes desean visitar dicho pais oriental. Nuestra agencia fue establecida en 1991 y llevamos más de 25 años de rendimiento y experiencia trabajando en conjunto con otras agencias de viajes de Latinoamerica. Japόn cuenta con muchos lugares expectaculares de muy enriqusedora base histόrica, cultural, arquitectonica y tecnologica. Todo esto combinado con una hermosa naturaleza y deliciosos placeres grastronόmicos. No deje de visitar este país lleno de energía y hospitalidad. Será un placer para todo el equipo de "Conoce Japόn" poder apoyar su viaje!!</p>
+    <p class="empresa">Bienvenidos a Japόn! "Conoce Japόn" es una agencia especializada en viajeros latinos quienes desean visitar dicho país oriental. Nuestra agencia fue establecida en 1991 y llevamos más de 25 años de rendimiento y experiencia trabajando en conjunto con otras agencias de viajes de Latinoamerica. Japόn cuenta con muchos lugares expectaculares de muy enriqusedora base histόrica, cultural, arquitectonica y tecnologica. Todo esto combinado con una hermosa naturaleza y deliciosos placeres grastronόmicos. No deje de visitar este país lleno de energía y hospitalidad. Será un placer para todo el equipo de "Conoce Japόn" poder apoyar su viaje!!</p>
   </section>
 
   <footer>
@@ -78,31 +78,15 @@
       </div>
 
       <div class="vertical">
+        <input type="text" name="nacionalidad" placeholder="Nacionalidad" maxlength="20" required> 
+      </div>
+
+      <div class="vertical">
         <input type="email" name="email" placeholder="Email" required>
-      </div>
-
-      <div class="vertical">
-        <label for="pais">Nacionalidad</label>
-        <select name="pais" id="pais">
-      </div>
-
-      <div class="vertical">
-        <option value="argentina">Argentina</option>
-        <option value="chile">Chile</option>
-        <option value="brasil">Brasil</option>
-        <option value="uruguay">Uruguay</option>
-        <option value="otro">Otro</option>
-      </div>
-              
-      <div class="vertical">
-       <input type="checkbox" id="estado1" name="estado1" value="soltero/a">
-         <label for="estado1">Viajo solo</label>
-       <input type="checkbox" id="estado2" name="estado2" value="en-pareja">
-         <label for="estado2">Viajo acompañado</label>
-      </div>
+      </div> 
       
       <div class="vertical">
-       <textarea name="comentario" placeholder="Comentario" id="comentario" cols="40" rows="8"></textarea>
+       <textarea name="comentario" placeholder="Comentario" id="comentario" cols="30" rows="8"></textarea>
       </div>
 
       <div class="vertical">
@@ -125,7 +109,6 @@
     <div><img class="petalo" src="imagenes/sakura7.png" alt="sakura7"></div>
     <div><img class="petalo" src="imagenes/sakura8.png" alt="sakura8"></div>
     <div><img class="petalo" src="imagenes/sakura9.png" alt="sakura9"></div>
-    <div><img class="petalo" src="imagenes/sakura10.png" alt="sakura10"><div>
   </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

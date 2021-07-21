@@ -1,5 +1,5 @@
 .petalo {
-  width: 20px;
+  width: 1rem;
   opacity: 0.7;
   overflow: hidden;
 }
@@ -57,13 +57,8 @@
 }
 
 .leaf div:nth-child(9) {
-  left: 90%;
+  left: 84%;
   animation: animate 18s linear infinite;
-}
-
-.leaf div:nth-child(10) {
-  left: 100%;
-  animation: animate 16s linear infinite;
 }
 
 @keyframes animate {

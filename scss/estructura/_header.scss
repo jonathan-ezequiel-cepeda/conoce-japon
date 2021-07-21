@@ -1,7 +1,8 @@
 header {
   background-image: url(../imagenes/bg-header.png);
   background-position: top;
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
   nav {
     ul {
       li {
@@ -50,7 +51,7 @@ header {
   }
 
   .logo {
-    width: 6em;
+    width: 6rem;
     display: inline-block;
     margin-bottom: 2rem;
   }

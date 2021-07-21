@@ -1,7 +1,8 @@
 footer {
   background-image: url(../imagenes/footer.png);
   background-position: bottom;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
   margin-bottom: 0%;
   .titulo2 {
     color: $color-titulo;
@@ -22,5 +23,25 @@ footer {
     height: 1rem;
     padding: 0;
     margin: 0.2rem;
+  }
+  input {
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: $color-borde;
+    margin: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: $color-titulo;
+  }
+  textarea {
+    border-radius: 1rem;
+    border-color: $color-borde;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    width: 50%;
   }
 }
