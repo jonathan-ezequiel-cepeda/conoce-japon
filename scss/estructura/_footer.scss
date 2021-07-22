@@ -3,20 +3,13 @@ footer {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;
-  margin-bottom: 0%;
+  margin-bottom: -2%;
   .titulo2 {
     color: $color-titulo;
     text-align: center;
     font-family: "Permanent Marker", cursive;
     font-size: 150%;
     padding: 0.1rem;
-    .redes-sociales {
-      margin: 1rem;
-      color: $color-texto;
-      text-align: center;
-      font-weight: bolder;
-      font-size: 1.2rem;
-    }
   }
   .linea {
     border-top: solid $color-texto;
@@ -28,7 +21,10 @@ footer {
     border-style: solid;
     border-radius: 1rem;
     border-color: $color-borde;
+    width: 10rem;
+    height: 2rem;
     margin: 0.5rem;
+    margin-bottom: 1rem;
     font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: bold;
@@ -42,6 +38,31 @@ footer {
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    width: 50%;
+    width: 14rem;
+    height: 14rem;
+  }
+  .flex {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $color-subtitulo;
+  }
+  .logoRedes {
+    width: 3rem;
+    display: -ms-inline-flexbox;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  .redes-sociales {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 1rem;
+    color: $color-subtitulo;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: lighter;
+    display: inline-block;
   }
 }

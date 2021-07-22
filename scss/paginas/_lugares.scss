@@ -50,7 +50,7 @@
 
 .text-tokyo {
   grid-area: text-tokyo;
-  margin: 7rem;
+  margin: 5rem;
   border: solid 0.5em $color-borde;
   border-radius: 5%;
 }
@@ -61,14 +61,14 @@
 }
 
 .kyoto:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 2s;
   margin: 2rem;
 }
 
 .text-kyoto {
   grid-area: text-kyoto;
-  margin: 7rem;
+  margin: 5rem;
   border: solid 0.5em $color-borde;
   border-radius: 5%;
 }
@@ -79,13 +79,13 @@
 }
 
 .osaka:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 2s;
 }
 
 .text-osaka {
   grid-area: text-osaka;
-  margin: 7rem;
+  margin: 5rem;
   border: solid 0.5em $color-borde;
   border-radius: 5%;
 }
@@ -96,13 +96,13 @@
 }
 
 .nagano:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 2s;
 }
 
 .text-nagano {
   grid-area: text-nagano;
-  margin: 7rem;
+  margin: 5rem;
   border: solid 0.5em $color-borde;
   border-radius: 5%;
 }
@@ -113,13 +113,13 @@
 }
 
 .fukuoka:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition-duration: 2s;
 }
 
 .text-fukuoka {
   grid-area: text-fukuoka;
-  margin: 7rem;
+  margin: 5rem;
   border: solid 0.5em $color-borde;
   border-radius: 5%;
 }
