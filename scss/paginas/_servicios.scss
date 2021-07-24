@@ -14,7 +14,8 @@ article {
   text-align: center;
   border-color: $color-subtitulo;
   border-width: 0.2rem;
-}
-.btnColor:hover {
-  background-color: rgb(255, 138, 159);
+  opacity: 0.8;
+  &:hover {
+    background-color: rgb(252, 145, 165);
+  }
 }

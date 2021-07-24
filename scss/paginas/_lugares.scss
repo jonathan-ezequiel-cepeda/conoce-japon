@@ -1,3 +1,21 @@
+.lugares-grid {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  grid-template-areas:
+    "tokyo text-tokyo"
+    "kyoto text-kyoto"
+    "osaka text-osaka"
+    "nagano text-nagano"
+    "fukuoka text-fukuoka";
+  row-gap: 1rem;
+  column-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
 .title-grid {
   font-size: 200%;
   text-align: center;
@@ -18,24 +36,6 @@
 .text-grid:hover {
   transform: scale(1.1);
   transition-duration: 2s;
-}
-
-.lugares-grid {
-  margin: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(5, auto);
-  grid-template-areas:
-    "tokyo text-tokyo"
-    "kyoto text-kyoto"
-    "osaka text-osaka"
-    "nagano text-nagano"
-    "fukuoka text-fukuoka";
-  row-gap: 1rem;
-  column-gap: 1rem;
-  align-items: center;
-  justify-items: center;
-  flex-wrap: wrap;
 }
 
 .tokyo {

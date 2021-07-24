@@ -8,16 +8,14 @@
   align-content: center;
   flex: 1;
   margin: 3rem;
-}
-
-iframe {
-  flex: 1;
-  margin: 0.5rem;
-  border: solid 0.5em $color-borde;
-  border-radius: 5%;
-  opacity: 0.8;
-}
-
-iframe:hover {
-  opacity: 1;
+  iframe {
+    flex: 1;
+    margin: 0.5rem;
+    border: solid 0.5em $color-borde;
+    border-radius: 5%;
+    opacity: 0.8;
+    &:hover {
+      opacity: 1;
+    }
+  }
 }

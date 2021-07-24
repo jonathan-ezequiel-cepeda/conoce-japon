@@ -4,6 +4,12 @@ footer {
   background-repeat: no-repeat;
   background-size: 100%;
   margin-bottom: -2%;
+  .linea {
+    border-top: solid $color-texto;
+    height: 1rem;
+    padding: 0;
+    margin: 0.2rem;
+  }
   .titulo2 {
     color: $color-titulo;
     text-align: center;
@@ -11,11 +17,38 @@ footer {
     font-size: 150%;
     padding: 0.1rem;
   }
-  .linea {
-    border-top: solid $color-texto;
-    height: 1rem;
-    padding: 0;
-    margin: 0.2rem;
+  .tituloContacto {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .flex {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $color-subtitulo;
+    .logoRedes {
+      width: 3rem;
+      display: -ms-inline-flexbox;
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-top: 1rem;
+      justify-content: center;
+      &:hover {
+        transform: scale(1.2);
+        transition: 1s;
+      }
+    }
+    .redes-sociales {
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      color: $color-subtitulo;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: lighter;
+      display: inline-block;
+    }
   }
   input {
     border-style: solid;
@@ -23,7 +56,9 @@ footer {
     border-color: $color-borde;
     width: 10rem;
     height: 2rem;
-    margin: 0.5rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    margin-top: 0rem;
     margin-bottom: 1rem;
     font-family: "Roboto", sans-serif;
     font-style: italic;
@@ -40,39 +75,5 @@ footer {
     text-align: center;
     width: 14rem;
     height: 14rem;
-  }
-  .flex {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: $color-subtitulo;
-  }
-  .logoRedes {
-    width: 3rem;
-    display: -ms-inline-flexbox;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-top: 1rem;
-    justify-content: center;
-  }
-
-  .logoRedes:hover {
-    transform: scale(1.2);
-    transition: 1s;
-  }
-
-  .redes-sociales {
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 1rem;
-    color: $color-subtitulo;
-    text-align: center;
-    font-size: 1rem;
-    font-weight: lighter;
-    display: inline-block;
-  }
-
-  .tituloContacto {
-    margin-top: 3rem;
   }
 }
