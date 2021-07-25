@@ -34,92 +34,65 @@
 }
 
 .text-grid:hover {
-  transform: scale(1.1);
-  transition-duration: 2s;
+  @include hoverLugares;
 }
 
 .tokyo {
-  grid-area: tokyo;
-  margin: 2rem;
+  @include lugar(tokyo);
 }
 
 .tokyo:hover {
-  transform: scale(1.1);
-  transition-duration: 2s;
+  @include hoverLugares;
 }
 
 .text-tokyo {
-  grid-area: text-tokyo;
-  margin: 5rem;
-  border: solid 0.5em $color-borde;
-  border-radius: 5%;
+  @include textLugar(text-tokyo);
 }
 
 .kyoto {
-  grid-area: kyoto;
-  margin: 2rem;
+  @include lugar(kyoto);
 }
 
 .kyoto:hover {
-  transform: scale(1.1);
-  transition-duration: 2s;
-  margin: 2rem;
+  @include hoverLugares;
 }
 
 .text-kyoto {
-  grid-area: text-kyoto;
-  margin: 5rem;
-  border: solid 0.5em $color-borde;
-  border-radius: 5%;
+  @include textLugar(text-kyoto);
 }
 
 .osaka {
-  grid-area: osaka;
-  margin: 2rem;
+  @include lugar(osaka);
 }
 
 .osaka:hover {
-  transform: scale(1.1);
-  transition-duration: 2s;
+  @include hoverLugares;
 }
 
 .text-osaka {
-  grid-area: text-osaka;
-  margin: 5rem;
-  border: solid 0.5em $color-borde;
-  border-radius: 5%;
+  @include textLugar(text-osaka);
 }
 
 .nagano {
-  grid-area: nagano;
-  margin: 2rem;
+  @include lugar(nagano);
 }
 
 .nagano:hover {
-  transform: scale(1.1);
-  transition-duration: 2s;
+  @include hoverLugares;
 }
 
 .text-nagano {
-  grid-area: text-nagano;
-  margin: 5rem;
-  border: solid 0.5em $color-borde;
-  border-radius: 5%;
+  @include textLugar(text-nagano);
 }
 
 .fukuoka {
-  grid-area: fukuoka;
-  margin: 2rem;
+  @include lugar(fukuoka);
 }
 
 .fukuoka:hover {
-  transform: scale(1.1);
-  transition-duration: 2s;
+  @include hoverLugares;
 }
 
 .text-fukuoka {
-  grid-area: text-fukuoka;
-  margin: 5rem;
-  border: solid 0.5em $color-borde;
-  border-radius: 5%;
+  @include textLugar(text-fukuoka);
 }

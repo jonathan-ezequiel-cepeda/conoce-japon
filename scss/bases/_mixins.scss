@@ -1,0 +1,16 @@
+@mixin textLugar($gridArea) {
+  grid-area: $gridArea;
+  margin: 5rem;
+  border: solid 0.5em $color-borde;
+  border-radius: 5%;
+}
+
+@mixin hoverLugares {
+  transform: scale(1.1);
+  transition-duration: 2s;
+}
+
+@mixin lugar($area) {
+  grid-area: $area;
+  margin: 2rem;
+}

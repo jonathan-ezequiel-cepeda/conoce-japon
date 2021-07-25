@@ -292,8 +292,7 @@ footer {
 
 .kyoto:hover {
   transform: scale(1.1);
-  transition-duration: 2s;
-  margin: 2rem; }
+  transition-duration: 2s; }
 
 .text-kyoto {
   grid-area: text-kyoto;
