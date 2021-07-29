@@ -178,7 +178,8 @@ footer {
   justify-items: normal;
   align-content: center;
   justify-content: space-evenly;
-  color: #555555; }
+  color: #555555;
+  margin-top: 3rem; }
   .actividades .textImg {
     opacity: 0.8;
     display: flex;
